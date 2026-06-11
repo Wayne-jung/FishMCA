@@ -2,11 +2,11 @@
 
 FishMCA is a monocular multi-cue framework for multiple fish tracking in aquaculture videos.
 
-This public repository provides the main code framework, model structure, and qualitative tracking examples. Detailed training settings, private datasets, annotations, pretrained weights, and unpublished research notes are not included before the paper is formally released.
+This public repository provides the main code framework, model structure, and qualitative tracking examples. Full training details, pretrained weights, and complete experimental settings will be uploaded after the paper is formally published.
 
 ## Overview
 
-FishMCA follows a detector-tracker pipeline:
+FishMCA follows a tracking by detection pipeline:
 
 ```text
 Input frame
@@ -69,7 +69,7 @@ assets/results/Ras_tracked.mp4
 
 ## Release Note
 
-This repository is a public code preview. Full training details, pretrained weights, and complete experimental settings will be released after the manuscript is formally published.
+This repository is a public code preview. Full training details, pretrained weights, and complete experimental settings will be uploaded after the manuscript is formally published.
 
 ## Acknowledgements
 
