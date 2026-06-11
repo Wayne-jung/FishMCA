@@ -1,0 +1,96 @@
+output/
+weight/
+weights/
+checkpoints/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+wandb/
+*.pth
+*.onnx
+visual/
+./SAM2/checkpoints
+./VideoDepthAnything/video_depth_anything_vits.pth
+*.log
+*.pth
+*.pt
+*.png
+*.jpg
+visual_out/
+mask/
+YOLOX_outputs/
+
+# Private manuscript / research notes
+reference paper.*
+PSTR_PartAttention迁移方案.txt
+PUBLIC_RELEASE_STRUCTURE.md
+main.tex
+*.synctex*
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+
+# Local datasets, videos, generated masks, and pseudo labels
+/data/
+/datasets/
+/videos/
+/assert/
+/track_vis/
+/tracking_results/
+/da2_depth_vis/
+/fish_mask_reid/
+*.mp4
+*.avi
+*.mov
+*.jsonl
+/reference/
+
+# Public demo tracking videos
+!assets/
+!assets/results/
+!assets/results/*.mp4
+
+# External reference/dependency source trees not needed in a public release
+PSTR-main/
+SAM2/
+VideoDepthAnything/
+
+# Large third-party demo resources not needed for FishMCA public code
+ByteTrack/*
+!ByteTrack/LICENSE
+!ByteTrack/README.md
+!ByteTrack/yolox/
+ByteTrack/yolox/*
+!ByteTrack/yolox/__init__.py
+!ByteTrack/yolox/tracker/
+!ByteTrack/yolox/tracker/**
+!ByteTrack/yolox/tracking_utils/
+!ByteTrack/yolox/tracking_utils/**
+ByteTrack/assets/
+ByteTrack/datasets/
+ByteTrack/tutorials/
+ByteTrack/deploy/
+ByteTrack/exps/
+ByteTrack/tools/
+ByteTrack/yolox/data/
+ByteTrack/yolox/deepsort_tracker/
+ByteTrack/yolox/motdt_tracker/
+ByteTrack/yolox/sort_tracker/
+ByteTrack/yolox/models/
+ByteTrack/yolox/evaluators/
+ByteTrack/yolox/layers/
+ByteTrack/yolox/utils/
+ByteTrack/yolox/core/
+ByteTrack/yolox/exp/
+
+# Local backup/copy files
+*-Copy*.py
+*_copy.py
+
+# Re-ignore generated files after any directory allow-list rules
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
